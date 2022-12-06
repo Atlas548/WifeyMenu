@@ -1,0 +1,52 @@
+body {
+    margin: 0%;
+    background-color: lightgreen;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+}
+
+header h1 {
+    color: olivedrab;
+}
+
+header ul li {
+    font-size: larger;
+    padding: 3px;
+    display: inline-block;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+/* Default color of all links  */
+a:link {
+    color: olivedrab;
+}
+/* Changes color when link has been visited  */
+a:visited {
+    color: yellow;
+}
+/* Changes color when hovering the curser over link  */
+a:hover {
+    color: red;
+}
+/* Changes color when link is currently being used  */
+a:active {
+    color: navy;
+}
+
+main h2 {
+    font-size: xx-large;
+}
+
+main {
+    text-align: center;
+}
+
+main ul li {
+    font-size: x-large;
+    list-style-type: none;
+}
